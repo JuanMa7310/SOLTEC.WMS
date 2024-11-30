@@ -3,14 +3,48 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{8F37261A-93C0-45A2-89B9-1024678EF71C}"
+	ProjectSection(SolutionItems) = preProject
+		CONTRIBUTORS.txt = CONTRIBUTORS.txt
+		LICENSE = LICENSE
+		README-ES.md = README-ES.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{2A4B4EAA-5D3E-4060-B1AD-F18DB3F32AB0}"
+	ProjectSection(SolutionItems) = preProject
+		repository-open-graph-template.png = repository-open-graph-template.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{5493A20F-BF34-4017-9D42-9148B67F29AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BA475E54-F434-41D4-95C3-555301C06B24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLTEC.WMS", "SOLTEC.WMS\SOLTEC.WMS.csproj", "{355E157C-AA36-4D72-B052-2E54170483FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLTEC.WMS.Tests", "SOLTEC.WMS.Tests\SOLTEC.WMS.Tests.csproj", "{AC79F87D-18DA-48E4-92AC-B7F91C7CA795}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{355E157C-AA36-4D72-B052-2E54170483FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{355E157C-AA36-4D72-B052-2E54170483FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{355E157C-AA36-4D72-B052-2E54170483FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{355E157C-AA36-4D72-B052-2E54170483FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC79F87D-18DA-48E4-92AC-B7F91C7CA795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC79F87D-18DA-48E4-92AC-B7F91C7CA795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC79F87D-18DA-48E4-92AC-B7F91C7CA795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC79F87D-18DA-48E4-92AC-B7F91C7CA795}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A4B4EAA-5D3E-4060-B1AD-F18DB3F32AB0} = {8F37261A-93C0-45A2-89B9-1024678EF71C}
+		{355E157C-AA36-4D72-B052-2E54170483FA} = {5493A20F-BF34-4017-9D42-9148B67F29AF}
+		{AC79F87D-18DA-48E4-92AC-B7F91C7CA795} = {BA475E54-F434-41D4-95C3-555301C06B24}
 	EndGlobalSection
 EndGlobal
