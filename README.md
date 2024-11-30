@@ -1,6 +1,5 @@
 # SOLTEC.WMS
 
-![image](https://img.shields.io/badge/license-GPL-3.svg)
 ![image](https://img.shields.io/badge/license-LGPL-3.svg)
 
 **SOLTEC.WMS** (**Warehouse Management System**). The concept refers to a type of software that enables the integration 
@@ -10,7 +9,11 @@ automation.
 
 # Installation
 
+
+
 # Building
+
+
 
 #### With Visual Studio 2022
 
